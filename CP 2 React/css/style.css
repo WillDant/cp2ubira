@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Open+Sans:ital,wght@0,600;0,800;1,800&family=Roboto:wght@300;400;700&family=Tienne:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.header {
+    padding: 16px 0;
+    width: 90%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container .logo img {
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.home ul {
+    display: inline-flex;
+    gap: 4rem;
+    list-style: none;
+}
+
+.menu-home{
+    display: inline;
+    padding: 8px;
+
+
+}
